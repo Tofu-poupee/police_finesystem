@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ウブ♡ぶいGTA警察_罰金計算ツール</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./icons/GTA_.ico" type="image/x-icon">
+</head>
+
+
+<body>
+    <h1><span>ウブ♡ぶいGTA警察_罰金計算ツール</span></h1>
+
+    <div class="table-container">
+        <form id="priceForm">
+            <div class="table-wrapper scroll-area">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>✔</th>
+                            <th>🧾罪状</th>
+                            <th>💰金額</th>
+                            <th>🚓内容</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="price" value="50">
+                            </td>
+                            <td>公務執行妨害</td>
+                            <td>50万</td>
+                            <td>
+                                →著しいいやがらせによりまともな業務ができなくなった場合適用されます<br>
+                                ※警察署襲撃とあわせての適用不可です。
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="price" value="25">
+                            </td>
+                            <td>危険物所持</td>
+                            <td>25万</td>
+                            <td>
+                                →(犯罪道具や武器など)
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="price" value="125">
+                            </td>
+                            <td>カーブースティング</td>
+                            <td>125万</td>
+                            <td>
+                                ・カーブースティング
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="price" value="150">
+                            </td>
+                            <td>小型犯罪【ATM・空き巣】</td>
+                            <td>150万</td>
+                            <td>
+                                ・ATM強盗<br>
+                                ・空き巣強盗<br>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="price" value="200">
+                            </td>
+                            <td>小型強盗【コンビニ強盗】</td>
+                            <td>200万</td>
+                            <td>
+                                ・ATM強盗<br>
+                                ・空き巣強盗<br>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="price" value="550">
+                            </td>
+                            <td>小型強盗【フリーカ銀行強盗】</td>
+                            <td>550万</td>
+                            <td>
+                                ・ATM強盗<br>
+                                ・空き巣強盗<br>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="price" value="600">
+                            </td>
+                            <td>大型強盗【武器屋強盗】</td>
+                            <td>600万</td>
+                            <td>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="price" value="650">
+                            </td>
+                            <td>大型強盗【宝石・パレト】</td>
+                            <td>650万</td>
+                            <td>
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="price" value="700">
+                            </td>
+                            <td>大型犯罪</td>
+                            <td>700万</td>
+                            <td>
+                                ・アーティファクト<br>
+                                ・空港襲撃<br>
+                                ・貨物船強盗<br>
+                                ・クラブハウス<br>
+                                ・客船強盗<br>
+                                ・ヒューマンラボ<br>
+                                ・オイルリグ<br>
+                                ・金庫強盗
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="price" value="800">
+                            </td>
+                            <td>大型強盗【ユニオンヘイスト】</td>
+                            <td>800万</td>
+                            <td>
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="price" value="1000">
+                            </td>
+                            <td>大型強盗【パシフィックヘイスト】</td>
+                            <td>1000万</td>
+                            <td>
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="price" value="250">
+                            </td>
+                            <td>逃走ほう助</td>
+                            <td>250万</td>
+                            <td>
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="price" value="100">
+                            </td>
+                            <td>プレイヤー殺人罪</td>
+                            <td>100万</td>
+                            <td>
+                                →プレイヤーを殺害した際に、適用されます<br>
+                                ※NPCを殺害した場合には適用されません。
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="price" value="100">
+                            </td>
+                            <td>薬物所持/販売罪</td>
+                            <td>100万</td>
+                            <td>
+                                →薬物の所持および販売で適用、1個でも持ってたら適用されます
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="price" value="5000">
+                            </td>
+                            <td>わいせつ罪</td>
+                            <td>5000万</td>
+                            <td>
+                                →過度なセクハラで適用されます
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="price" value="100">
+                            </td>
+                            <td>各職使用車盗難</td>
+                            <td>100万</td>
+                            <td>
+                                →警察および救急車両の盗難で適用されます
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" class="price" value="10000">
+                            </td>
+                            <td>警察署襲撃罪</td>
+                            <td>1億</td>
+                            <td>
+                                →警察暑襲撃した際に適用されます
+                            </td>
+                        </tr>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </form>
+    </div>
+
+    <div class="totals">
+        <h3>💰合計金額: <span id="total">0</span> </h3>
+        <h3>📝請求金額: <span id="multiplied">0</span></h3>
+    </div>
+
+
+    <footer>
+        <div id="footer">
+            <div class="foot-cont">
+                <div id="copy">
+                    <small class="copyright">&copy;&nbsp;2025&nbsp;🛠️ 制作：Clochette·colorée·doudou/ウブ♡ぶいGTA</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+
+<script src="/js/jquery-3.7.1.min.js"></script>
+
+<script>
+
+    function calculateTotal() {
+        const checkboxes = document.querySelectorAll('.price:checked');
+        let sum = 0;
+
+        checkboxes.forEach(cb => {
+            sum += parseInt(cb.value); // 単位：万円
+        });
+
+        const multiplied = sum * 10000; // 単位：円
+
+        const totalElement = document.getElementById('total');
+        if (sum >= 10000) {
+            const oku = Math.floor(sum / 10000); // 億の部分
+            const man = sum % 10000;             // 万円の残り
+            if (man === 0) {
+                totalElement.textContent = `${oku.toLocaleString('ja-JP')}億`;
+            } else {
+                totalElement.textContent = `${oku.toLocaleString('ja-JP')}億${man.toLocaleString('ja-JP')}万円`;
+            }
+        } else {
+            totalElement.textContent = `${sum.toLocaleString('ja-JP')}万円`;
+        }
+
+        document.getElementById('multiplied').textContent = `${multiplied.toLocaleString('ja-JP')} 円`;
+    }
+
+    document.querySelectorAll('.price').forEach(cb => {
+        cb.addEventListener('change', calculateTotal);
+    });
+
+
+
+</script>
+
+</html>
